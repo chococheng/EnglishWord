@@ -1,4 +1,4 @@
-
+//word
 Parse.initialize("z5hnReuaLA5wsj2kd1QDS9bGrPs1bYLwXUydBfVj", "XHUzfRBjnBXWgPgujvnB4Dh2Y1nmZSMh9zLHspXU");
 
  var r =confirm("y: add a new word, n: review a word");
