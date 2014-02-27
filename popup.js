@@ -1,7 +1,7 @@
 //word
 Parse.initialize("z5hnReuaLA5wsj2kd1QDS9bGrPs1bYLwXUydBfVj", "XHUzfRBjnBXWgPgujvnB4Dh2Y1nmZSMh9zLHspXU");
 
- var r =confirm("y: add a new word, n: review a word");
+ var r =confirm("確認:新增一個新單字, 取消:隨機跑出一個單字");
  var Word=Parse.Object.extend("Word");
  
  function create()
@@ -14,8 +14,8 @@ Parse.initialize("z5hnReuaLA5wsj2kd1QDS9bGrPs1bYLwXUydBfVj", "XHUzfRBjnBXWgPgujv
  }
  if(r==true)
  {
-	var newWord = prompt("Let's add a new word");
-	var newChin = prompt("And its Chinese");
+	var newWord = prompt("來新增英文單字吧!");
+	var newChin = prompt("他的中文意思?");
 	create();
  }
  else
